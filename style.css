@@ -4,6 +4,9 @@ body {
     padding: 0;
     margin: 0;
 }
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 h1 {
     font-weight: 200;
     font-size: 1.5em;
@@ -21,7 +24,7 @@ p {
     font-weight: 400;
     font-size: 15px;
     color: hsl(229, 6%, 66%);
-    width: 50%;
+    
 }
 header div {
     text-align: center;
@@ -29,11 +32,35 @@ header div {
 }
 header div p {
     margin: auto;
+    width: 50%;
 }
 main {
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .tile {
     background-color: white;
-    
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+    width: 19em;
+    height: 13em;
+    border-radius: 5px;
+    border-top: 3px solid;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.supervisor {
+    margin-right: 26px;
+    border-top-color: hsl(180, 62%, 55%);
+}
+.team-builder {
+    border-top-color: hsl(0, 78%, 62%);
+}
+.karma {
+    border-top-color: hsl(34, 97%, 64%);
+}
+.calculator {
+    margin-left: 26px;
+    border-top-color: hsl(212, 86%, 64%);
 }
