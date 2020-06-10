@@ -76,3 +76,19 @@ main {
     margin-left: 26px;
     border-top-color: hsl(212, 86%, 64%);
 }
+@media screen and (max-width: 740px) {
+    body {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    main {
+        flex-direction: column;
+    }
+    header > div > p {
+        width: auto;
+    }
+    .tile {
+        margin: initial;
+        margin-top: 26px;
+    }
+}
