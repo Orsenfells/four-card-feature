@@ -28,7 +28,7 @@ p {
 }
 header div {
     text-align: center;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 header div p {
     margin: auto;
@@ -38,17 +38,28 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 1.5em;
 }
 .tile {
     background-color: white;
     box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
     width: 19em;
-    height: 13em;
+    height: 12.5em;
     border-radius: 5px;
     border-top: 3px solid;
     padding-left: 1em;
     padding-right: 1em;
+    
+}
+.tile h4 {
+    margin-bottom: 0px;
+}
+.tile p {
+    margin-top: 0px;
+}
+.tile img {
+    padding-left: 12em;
+    padding-top: .5em; 
 }
 .supervisor {
     margin-right: 26px;
@@ -58,6 +69,7 @@ main {
     border-top-color: hsl(0, 78%, 62%);
 }
 .karma {
+    margin-top: 26px;
     border-top-color: hsl(34, 97%, 64%);
 }
 .calculator {
